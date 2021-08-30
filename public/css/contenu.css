@@ -1,0 +1,185 @@
+   /* ------Flex the slidebar and the content on right */
+   .side_content{
+    height: 100%;
+    display: flex;
+}
+/* .main_content{
+    height: 100%;
+} */
+
+/* ----- ZONE DE TITRE AND BUTTON */
+.titre{
+    display: flex;
+    margin: 25px 0px 25px 25px;
+    
+}
+
+/* ---- FILTRE ----*/
+.filtre{
+    margin-left:15px;
+    display: inline-block;
+    width: 90%;
+}
+
+span.input-group-text{
+    width: 110px;
+    justify-content:start;
+    color: white;
+    background: #7098B1;
+}
+
+/* ---- FOR GESTTION DESTRIBUTEUR SHOWING DATA */
+
+
+.data_input{
+    margin-left: 5px;
+    border: none;
+    outline:none;
+    color: grey;
+    padding: 0px;
+
+}
+
+/* ------ CSS OF TABLEAU --------- */
+table{
+    border: 1px solid #ddd;
+    background-color:white; 
+}
+
+th , td{
+    white-space: nowrap;
+}
+
+.th_pre{
+    white-space: pre-wrap;
+}
+
+.bi-trash ,.bi-pen,.bi-eye{
+padding-right: 10px;
+font-size: 20px;
+cursor: pointer;
+ }
+
+
+/* ----- Modals Jeu */
+
+h5{
+text-align: center;
+color: rgb(29, 33, 91);
+margin-left: auto;
+}
+
+.form-switch {
+padding-left: 3.2em;
+PADDING-BOTTOM: 25px;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .img_modal{
+        display: none;
+    }
+}
+
+/* ------ COLORS */
+
+.d_blue{
+background-color: #0B314B;
+color: white;
+word-spacing: 95px;
+text-align: start;
+}
+
+.d_blue:hover{
+color: white;
+}
+.btn_down{
+word-spacing: 95px;
+text-align: start;
+font-size: medium;
+}
+.btn_down2{
+word-spacing: 50px;
+text-align: start;
+font-size: medium;
+}
+.img_modal{
+overflow: scroll;
+height: 260px;
+width: 42%;
+}
+
+/* ----- For tirage au sort ---- */
+
+
+.nbr_participant{
+font-size: x-small;   
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+.pick_dist button {
+    border-radius: 0px;
+    background-color: #0B314B!important;
+    color: white!important;
+    font-size: 17px!important;
+}
+
+.pick100{
+    width: 100%!important;
+}
+
+.bi-caret-down-fill ,.bi-caret-up-fill{
+    position: relative;
+    top: -9px;
+    color: white;
+    font-size: smaller;
+}
+
+@media only screen and (max-width: 420px) {
+
+    .pick_dist{
+        width: 100%!important;
+     }
+    }
+    @media only screen and (min-width: 420px) {
+
+    .pick_dist{
+        width: 60%!important;
+    }
+    }
+
+/* ----- end of tirage----- */
+
+
+
+
+
+.c_blue{
+color: #0B314B;
+}
+
+
+  /* ------ Only for page Listes des gagnants  */
+  @media only screen and (max-width: 350px) {
+
+    div .span_gagnant{
+        flex:auto;
+        min-width: 150px;
+    }
+    div .slc_gagnant {
+     min-width: 150px!important;
+    }
+    .dist_gagnant{
+        min-width: 150px!important;
+    }
+    }

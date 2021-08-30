@@ -1,0 +1,168 @@
+/* ----- HERE WE STYLIZE SIDEBAR MENU ----- */
+   
+.my_left_menu{
+    background-color: #7098B1;
+    max-width: min-content;
+    color: white;
+    z-index:3;
+   }
+   
+   .nav_bar{
+    /* height:870px ; */
+    padding-bottom: 20px;
+    width: max-content;
+    /* width: 235px;
+    top:0px;
+    position: absolute;
+    background-color: #7098B1; */
+}
+#navbar{
+    padding: 1px;
+    flex: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7098B1;
+}
+
+.link{
+    MARGIN: 5px 8px;
+    padding: 5px;
+    font-weight: bold;
+    color:white;
+}
+
+/* ---- Second link(revendeur & electricien)----- */
+.ml-3{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 105px;
+    font-weight: 200;
+    color:white;      
+}
+/* ----Posionating the icon on left ---- */
+.fa-caret-down{
+    MARGIN-LEFT: -10px;
+    MARGIN-RIGHT: 5px;
+}
+
+.nav-pills .nav-link:hover{
+    background-color: #E5E5E5;   
+}
+/* ----Eliminate the color blue to white when it's hovered */
+ .nav-link:hover, .nav-link:focus, .nav-link:active {
+    text-decoration: none;
+    color: white !important;
+}
+
+/* ----- Tirage au sort by element  */
+
+.link_tirage{
+    background-color: #7098B1 !important;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+
+/* -----------HERE WE STYLIZE THE NAV_BAR MENU ---------*/
+.nav_content{
+display: inline-block; 
+line-height:40px; 
+margin: 0 20px;  
+text-transform: capitalize;   
+}
+
+
+.entete{
+    transform: scale(1.1);
+    margin-right: 4%;
+}
+
+
+#icon { color:  rgb(29, 33, 91) ; 
+    font-size:22px; 
+    padding:unset;
+}
+
+a.head{ border: hidden;
+    color: rgb(29, 33, 91);
+    font-size:18px;
+    padding: 10px 5px; 
+    text-align: left;
+    text-decoration: none;
+    font-weight: lighter;
+    TOP: -1px;
+    position: relative;
+}
+
+
+
+@media only screen and (max-width: 380px) {
+
+    .head{
+        display: none;
+     }
+
+     .titre {
+        display: table-row-group!important;
+    }
+
+    .titre div{
+        MARGIN-LEFT:inherit;
+     
+    }
+
+    .filtre {
+
+        margin-top: 5%;
+  
+    }
+    
+    
+    }
+
+
+    /* ----- gestion media contenu et sidebar */
+    
+    @media only screen and (min-width: 1380px){
+        .main_content{
+        
+        width: 95%!important; /* i changed here was 80%*/
+    }
+    }
+
+
+
+    @media only screen and (min-width: 990px) {
+
+  
+        .my_left_menu{
+            display: block!important;
+
+        }
+        .main_content{
+        
+        width: 77%;
+    }
+
+        .new-menu{
+        display: none;
+        }
+    }
+    
+    @media only screen and (max-width: 990px) {
+
+    .main_content{
+        position: absolute;
+        width: 98%;
+    }
+
+      .my_left_menu{
+          display: none;
+        
+      }
+      .new-menu{
+        display: block;
+    }
+    }

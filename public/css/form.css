@@ -1,0 +1,50 @@
+ /* ------- Formulaire ------- */
+ .form-control, .btn {
+    min-height: 38px;
+    border-radius: 5px;
+}
+.btn {        
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.login-form {
+    max-width: 60%; 
+    margin-left: 20px ;
+      font-size: 15px;
+    /* PADDING-TOP:35px; */
+    color: rgb(29, 33, 91);
+    display: none;
+}
+.btn-danger1{
+    WIDTH: 77px;
+    margin-right: 5px;
+}
+.form_jeu{
+    width: 80%;
+    margin-left: 10% ;
+      font-size: 15px;
+    /* PADDING-TOP:35px; */
+    color: rgb(29, 33, 91);
+}
+
+.form_revendeur{
+    margin-top: 130px;
+}
+
+@media only screen and (max-width: 767px){
+    
+    .form_revendeur{
+        margin-top: 16px;
+    }
+
+    form{
+        display: inherit!important;
+    }
+
+
+    .login-form {
+        max-width: 80%; 
+    }
+
+}

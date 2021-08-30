@@ -1,0 +1,54 @@
+
+/* ----- Resizigin model */
+.content{
+    font-size: smaller;
+}
+
+#popup_gagnant{
+    padding-left: 0px!important;
+}
+
+/* ----- FIRST NUM NUMERO SHOWED  */
+
+.num{
+    font-size: x-large;
+    line-height: 15px; 
+}
+.numero{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.classement{
+    font-size: large;
+}
+
+/* --- spacinign */
+
+.space{
+    padding-left: 3%;
+}
+
+
+/* ---- color darkblue && red --- */
+
+.darkblue{
+    color: #003A78;
+}
+.red{
+    color: red;
+}
+
+
+@media only screen and (max-width: 340px) {
+
+    .modal-lg{
+        font-size: small;
+     }
+
+     .space{
+         padding-left: 0%;
+     }
+    
+    }
